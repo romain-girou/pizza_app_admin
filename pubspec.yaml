@@ -1,0 +1,43 @@
+name: pizza_app_admin
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^1.0.6
+  font_awesome_flutter: ^10.6.0
+  path: ^1.8.3
+
+  image_picker: ^1.0.4
+
+  # Navigation
+  go_router: ^10.1.2
+  url_strategy: ^0.2.0
+
+  # BLOC
+  flutter_bloc: ^8.1.1
+  bloc: ^8.1.1
+  equatable: ^2.0.5
+
+  #Firebase
+  firebase_core: ^2.9.0
+
+  user_repository:
+    path: packages/user_repository
+  pizza_repository:
+    path: packages/pizza_repository
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
